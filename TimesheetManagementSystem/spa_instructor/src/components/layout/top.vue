@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <v-toolbar class="brown lighten-3" light>
     <v-toolbar-side-icon light></v-toolbar-side-icon>
     <v-toolbar-title>Toolbar</v-toolbar-title>
@@ -23,7 +23,6 @@
   
   
             <!--<v-list-tile asp-area="" asp-controller="Account" asp-action="Logout">-->
-            <!--<a asp-area="" asp-controller="Account" asp-action="Logout">
             <form asp-area="" asp-controller="Account" asp-action="Logout" method="post"></form>-->
               <v-list-tile id="logOutBtn" @@click.prevent="logOut"> 
                 <!--<v-btn></v-btn>-->
